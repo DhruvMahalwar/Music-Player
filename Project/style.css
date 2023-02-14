@@ -1,0 +1,213 @@
+
+/* header part */
+
+#nav
+{
+    height:55px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    z-index: 10;
+    top:0%;
+}
+#search_bar
+{
+    height: 40px;
+    width: 300px;
+    position:relative;
+    top:13%;
+    left: 75%;
+}
+#logo
+{
+    position: absolute;
+    top:0px;
+    background-color:#15c222;
+    height: 50px;
+    width: 50px;
+    top:2px;
+    border-radius:50% ;
+}
+#branding
+{
+    color: white;
+    position: absolute;
+    left:44%;
+    font-size: 30px;
+}
+
+
+/* playlist image */
+
+#playlist_heading #heading:hover
+{
+    color:black;
+}
+
+#playlist_heading
+{
+    position: absolute;
+    top:10%;
+    left:30%;
+    height: 350px;
+    width: 600px;
+    background-color: grey;
+}
+.text
+{
+    color:white;
+}
+
+#playlist_heading #heading
+{
+    position: absolute;
+    top:10%;
+    left:19%;
+    word-wrap: break-word;
+    font-size:40px;
+    font-weight: 150;
+}
+#playlist_heading #monthly_listener
+{
+    color:white; 
+    position: absolute;
+    top:28%;
+    left:40%;
+    word-wrap: break-word;
+    font-size:40px;
+    font-weight: 80;
+    font-size: 15px;   
+}
+#content
+{
+    position: absolute;
+    top:40%;
+    font-weight: 80;
+    left:4%;
+    right:4%;
+    font-size:21px ;
+}
+#playlist_img
+{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top:10%;
+    left:5%;
+}
+
+/* content part */
+#content_of_web
+{
+    height: 100%;
+    width: 100%;
+}
+/* trendy_song_over_the world */
+
+#trendy_heading
+{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0%;
+    margin: -2px;
+    margin-top:-4%;
+    color: #e1b41c;
+}
+#trendy_song_over_the_world
+{
+    color:white;
+    height:460px;
+    width:350px;
+    background-color: grey;
+    position: fixed;
+    top:10%;
+    left:75%;
+}
+#trendy_list
+{
+    list-style:none;
+    font-size: 25px;
+    font-weight: 150;
+    position: absolute;
+    top:3%;
+    left:-3%;
+    z-index: 20;
+}
+
+#list
+{
+    padding: 2%;
+    border-radius:50%;
+    height: 70px;
+    width: 70px;
+}
+
+/* Focus/study song list */
+.link_study
+{
+    text-decoration: none;
+    color: #000000;
+}
+.hover_prop:hover
+{
+    background-color: aliceblue;
+}
+#list_of_sutdy_song
+{
+    position: absolute;
+    top:60%;
+    left: 40px;
+    list-style: none;
+    font-size: 28px;
+    width: 992px;
+    z-index: 10;
+}
+.bgcolor_of_list
+{
+    background-color:#d8b459 ;
+    border-radius: 10px;
+    text-align: justify;
+}
+.study_list_item_margin
+{
+    margin-bottom: 5px;
+}
+.play_button
+{
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:5%;
+    left:95%;
+}
+.btn2
+{
+    top:25%;
+}
+.btn3
+{
+    top:45%;
+}
+.btn4
+{
+    top:65%;
+}
+.btn5
+{
+    top:85%;
+}
+/* Player */
+
+audio::-webkit-media-controls-panel 
+{
+    background-color:#576eb4;
+    border-radius:0%;
+}
+#audio_player_controls
+{
+    position: fixed;
+    top: 765px;
+    height: 60px;
+    width: 100%;
+}

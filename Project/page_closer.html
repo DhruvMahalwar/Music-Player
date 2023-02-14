@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music Player</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+    <div id="content_of_web">
+    <!-- search_bar stuff -->
+    <header>
+
+        <div id="nav">
+
+            <!-- logo and branding -->
+
+            <img src="spotify.svg" alt="logo" id="logo"> <p id="branding">Music Player</p>
+
+            <!-- search box -->
+
+            <form class="d-flex" role="search" id="search_bar">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" required>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+        </div>
+    </header>
+
+
+    <div id="playlist_heading">
+        <p id="heading" class="text">FOCUS/STUDY MUSIC</p>
+        <p id="monthly_listener" class="text">561 monthly listeners</p>
+        <p class="text" id="content">This playlist was created by ABCD on 21 october 2022. It was last updated 3 days ago. The song present in this playlist given a relaxing and soothing effect and makes are mind more focuesed towards the task.</p>
+    </div>
+
+    <div id="plalist_image">
+        <img src="playlist image.jpeg" alt="image of the playlist" id="playlist_img">
+    </div>
+
+
+
+    <aside>
+        <div id="trendy_song_over_the_world">
+            <ul id="trendy_list">
+                <p id="trendy_heading">Trending Songs</p>
+                <a href="page_despacito.html" style="text-decoration: none; color:white">
+                    <li>
+                    <img src="despacito.jpg" alt="Thumbnail of despacito song" id="list">
+                    Despacito
+                </li></a>
+                <a href="page_shape.html" style="text-decoration: none; color:white">
+                <li>
+                    <img src="shape of you.jpeg" alt="Thumbnail of despacito song" id="list">
+                    Shape of You
+                </li></a>
+                <a href="page_closer.html" style="text-decoration: none; color:#00ff7c">
+                <li>
+                    <img src="closer.jpeg" alt="Thumbnail of despacito song" id="list">
+                    Closer
+                </li></a>
+                <a href="page_it.html" style="text-decoration: none; color:white">
+                <li>
+                    <img src="it ani't me.jpeg" alt="Thumbnail of despacito song" id="list">
+                    It Ain't Me
+                </li></a>
+                <a href="page_vande.html" style="text-decoration: none; color:white">
+                <li>
+                    <img src="vande mataram.webp" alt="Thumbnail of despacito song" id="list">
+                    Vande Mataram
+                </li></a>
+                <a href="page_hum.html" style="text-decoration: none; color:white">
+                <li>
+                    <img src="hum honge kaamyaab.webp" alt="Thumbnail of despacito song" id="list">
+                    Hum honge kaamyaab
+                </li></a>
+            </ul>
+        </div>
+
+    </aside>
+    
+
+    <div id="song_list">
+        <ul id="list_of_sutdy_song">
+            <a href="page_lofi.html" class="link_study">
+            <li class="study_list_item_margin bgcolor_of_list hover_prop">
+                1. LOFI
+                <img src="play-solid.svg" class="play_button">  
+            </li>
+            </a>
+            <a href="page_relax.html" class="link_study">
+            <li class="study_list_item_margin bgcolor_of_list hover_prop">
+                2. JUST RELAX
+                <img src="play-solid.svg" class="play_button btn2">
+            </li>
+            </a>
+            <a href="page_valley.html" class="link_study">
+            <li class="study_list_item_margin bgcolor_of_list hover_prop">
+                3. VALLEY OF HOPE
+                <img src="play-solid.svg" class="play_button btn3">
+            </li>
+            </a>
+            <a href="page_weekend.html" class="link_study">
+            <li class="study_list_item_margin bgcolor_of_list hover_prop">
+                4. WEEKEND
+                <img src="play-solid.svg" class="play_button btn4">
+            </li>
+            </a>
+            <a href="page_street.html" class="link_study">
+            <li class="study_list_item_margin bgcolor_of_list hover_prop">
+                5. STREET FOOD
+                <img src="play-solid.svg" class="play_button btn5">
+            </li>
+            </a>
+        </ul>
+    </div>
+    <footer>
+        <div id="player">
+            <audio controls id="audio_player_controls" autoplay>
+                <source src="closer.mp3">
+            </audio>
+        </div>
+    </footer> 
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
